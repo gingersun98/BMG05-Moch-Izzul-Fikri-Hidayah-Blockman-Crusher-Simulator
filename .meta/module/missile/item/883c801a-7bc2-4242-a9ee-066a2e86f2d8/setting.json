@@ -1,0 +1,56 @@
+{
+  "data": {
+    "boundingVolume": {
+      "type": "Capsule"
+    },
+    "boundingVolumeMissileCfg": {
+      "height_c": 1,
+      "memory": {
+        "Capsule": "1.000000-0.500000",
+        "Cylinder": "1.000000-0.500000",
+        "Sector": "1.000000-0.500000",
+        "Sphere": "1.000000-0.500000"
+      },
+      "type": "Capsule"
+    },
+    "gravity": 1.0,
+    "hitCount": {
+      "hitEntityCount": 1,
+      "isValid": true
+    },
+    "hitEntityEffect": {
+      "effect": {
+        "asset": "asset/effect/Orange and Blue Dot Explosion Effect/sots208_ light spot_01_orange blue_3d.effect"
+      },
+      "once": true
+    },
+    "hitEntitySkill": "myplugin/61a15cd6-cfbd-4c55-86dc-f623218cf3c1",
+    "missileModel": {
+      "modelMesh": {
+        "asset": "asset/Mesh/Silver Short Shell/g2050_grenadier_bullet.mesh"
+      },
+      "type": "mesh"
+    },
+    "moveSpeed": 50.0,
+    "name": {
+      "value": "missile_883c801a-7bc2-4242-a9ee-066a2e86f2d8"
+    },
+    "rotateSpeed": 1.0,
+    "startEffect": {
+      "effect": {
+        "asset": "asset/effect/Orange Arrow Effect/gfxy207_quick hit_3d.effect"
+      },
+      "once": true,
+      "pos": {
+        "x": 1
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "26744558b1752036670f3cdea2eb58b2",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.22"
+  }
+}

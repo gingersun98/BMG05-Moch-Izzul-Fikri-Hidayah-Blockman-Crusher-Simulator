@@ -1,0 +1,29 @@
+{
+  "data": {
+    "followTarget": true,
+    "hitEntityEffect": {
+      "effect": {
+        "asset": "asset/effect/Horizontal Orange Shockwave Effect/gfxy207_shock wave_orange_3d.effect"
+      },
+      "once": true
+    },
+    "hitEntitySkill": "myplugin/2b1fa4c1-8bd1-456b-9cb5-cbb88c35d999",
+    "missileModel": {
+      "modelMesh": {
+        "asset": "asset/Mesh/Green Shell/g2050_missile_bullet.mesh"
+      },
+      "type": "mesh"
+    },
+    "moveSpeed": 10.0,
+    "name": {
+      "value": "ce770938-4c1d-42b0-ba4b-bdb08108f4c5"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "2521f8858ce1a532d92bf0ec928d2abc",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.22"
+  }
+}

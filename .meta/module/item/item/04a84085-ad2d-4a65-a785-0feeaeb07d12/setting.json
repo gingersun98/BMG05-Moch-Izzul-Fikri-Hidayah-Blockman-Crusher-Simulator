@@ -1,0 +1,32 @@
+{
+  "data": {
+    "candrop": true,
+    "icon": {
+      "asset": "asset/Mesh/Blue Frost Sword/crystal_sword.tga"
+    },
+    "item": {
+      "base": {
+        "__OBJ_TYPE": "ItemInHand",
+        "skill": [
+          "myplugin/Blasting_gas",
+          "myplugin/blow",
+          "myplugin/7dc96876-b4ef-4f04-b2fc-2b72e6184e0c"
+        ]
+      },
+      "type": "InHand"
+    },
+    "mesh": {
+      "asset": "asset/Mesh/Blue Frost Sword/crystal_sword.mesh"
+    },
+    "name": {
+      "value": "c5b5b6d7-31b3-4697-90a0-4841bd721807"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "015462b96f8e024f067ebb7acbd0d9a3",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.22"
+  }
+}

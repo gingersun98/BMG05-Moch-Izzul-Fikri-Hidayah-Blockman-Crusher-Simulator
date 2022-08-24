@@ -1,0 +1,32 @@
+{
+  "data": {
+    "candrop": true,
+    "icon": {
+      "asset": "asset/Mesh/Golden-Red Greatsword/g2030_weapon_7_1.tga"
+    },
+    "item": {
+      "base": {
+        "__OBJ_TYPE": "ItemInHand",
+        "skill": [
+          "myplugin/Blasting_gas",
+          "myplugin/blow",
+          "myplugin/720c3f19-65e8-47a1-a7c1-2d581b40a691"
+        ]
+      },
+      "type": "InHand"
+    },
+    "mesh": {
+      "asset": "asset/Mesh/Golden-Red Greatsword/g2030_weapon_7_1.mesh"
+    },
+    "name": {
+      "value": "73369d34-b94a-4a42-8fd7-e2a31e0b94ee"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "d192723f20a212e5b5a96c2116119175",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.22"
+  }
+}

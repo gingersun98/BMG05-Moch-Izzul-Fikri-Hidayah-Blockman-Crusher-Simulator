@@ -1,0 +1,24 @@
+{
+  "canAbandon": false,
+  "candrop": true,
+  "canEquipPlural": true,
+  "canUse": false,
+  "dropSpeed": 0.2,
+  "handItemBoneName": "s_hand_r",
+  "icon": "@asset/Mesh/Golden-Red Greatsword/g2030_weapon_7_1.tga",
+  "itemintroduction": "5cba3d8c-1190-4311-8810-9310398a8555",
+  "itemname": "73369d34-b94a-4a42-8fd7-e2a31e0b94ee",
+  "mesh": "asset/Mesh/Golden-Red Greatsword/g2030_weapon_7_1.mesh",
+  "needSave": false,
+  "skill": [
+    "myplugin/Blasting_gas",
+    "myplugin/blow",
+    "myplugin/720c3f19-65e8-47a1-a7c1-2d581b40a691"
+  ],
+  "stack_count_max": 1,
+  "syncGameData": {
+    "currentCapacity": true,
+    "extCapacity": true
+  },
+  "trap": false
+}

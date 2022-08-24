@@ -1,0 +1,31 @@
+{
+  "data": {
+    "icon": {
+      "asset": "asset/master/The magic book.png"
+    },
+    "item": {
+      "base": {
+        "__OBJ_TYPE": "ItemInHand",
+        "skill": [
+          "myplugin/ray",
+          "myplugin/fireball",
+          "myplugin/damage"
+        ]
+      },
+      "type": "InHand"
+    },
+    "mesh": {
+      "asset": "asset/master/Frozen Codex.mesh"
+    },
+    "name": {
+      "value": "item_The magic book"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "c4e5879141da0093bda32d07c83d0f0d",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.22"
+  }
+}

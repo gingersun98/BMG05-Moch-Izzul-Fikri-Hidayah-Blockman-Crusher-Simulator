@@ -1,0 +1,30 @@
+{
+  "data": {
+    "castEffect": {
+      "effect": {
+        "asset": "asset/stone/g2030_ranshao.effect"
+      },
+      "pos": {
+        "y": 0.3
+      }
+    },
+    "continueDamage": 3,
+    "deadRemove": true,
+    "fixTime": "reset",
+    "moveSpeed": -1.0,
+    "name": {
+      "value": "buff_burning"
+    },
+    "sound": {
+      "volume": {
+        "value": 0
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "650a514c599cfba5f22049fd3bcf0b4e"
+    },
+    "VERSION": "0.22"
+  }
+}

@@ -1,0 +1,187 @@
+{
+  "data": {
+    "box": {
+      "base": {
+        "__OBJ_TYPE": "SkyBoxStatic",
+        "back": {
+          "asset": "asset/sky/initial/Rear.png"
+        },
+        "bottom": {
+          "asset": "asset/sky/initial/bottom.png"
+        },
+        "front": {
+          "asset": "asset/sky/initial/forward.png"
+        },
+        "left": {
+          "asset": "asset/sky/initial/Left.png"
+        },
+        "right": {
+          "asset": "asset/sky/initial/right.png"
+        },
+        "top": {
+          "asset": "asset/sky/initial/top.png"
+        }
+      }
+    },
+    "instances": [
+      {
+        "__OBJ_TYPE": "Instance_VoxelTerrain",
+        "id": "26644713697705985",
+        "uniqueKey": "map001"
+      },
+      {
+        "__OBJ_TYPE": "Instance_Light",
+        "id": "8749925716093386753",
+        "ID": 1,
+        "lightType": "GlobalLight",
+        "name": "EnvironmentLight",
+        "skyColor": {
+          "b": 143,
+          "g": 133
+        },
+        "skyLineColor": {
+          "g": 62,
+          "r": 62
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Light",
+        "id": "8751160230928924673",
+        "ID": 7,
+        "lightType": "DirectionalLight",
+        "name": "DirectionalLight",
+        "position": {
+          "y": 5
+        },
+        "rotation": {
+          "y": -90
+        },
+        "skyColor": {
+          "b": 142,
+          "g": 133
+        },
+        "skyLineColor": {
+          "g": 61,
+          "r": 62
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_DropItem",
+        "config": "myplugin/04a84085-ad2d-4a65-a785-0feeaeb07d12",
+        "id": "8771728797726916609",
+        "position": {
+          "x": 23.349763870239,
+          "y": 0.15019258856773,
+          "z": 14.692390441895
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "config": "myplugin/9efabf7f-63f2-43e2-afa8-a3c9c051257a",
+        "id": "8771734223740649473",
+        "name": "entity_9efabf7f-63f2-43e2-afa8-a3c9c051257a",
+        "position": {
+          "x": 23.684907913208,
+          "y": -0.045716524124146,
+          "z": 23.506481170654
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "config": "myplugin/9efabf7f-63f2-43e2-afa8-a3c9c051257a",
+        "id": "8771746533325127681",
+        "name": "entity_9efabf7f-63f2-43e2-afa8-a3c9c051257a",
+        "position": {
+          "x": 28.997701644897,
+          "y": -0.45109620690346,
+          "z": 25.669591903687
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "config": "myplugin/9efabf7f-63f2-43e2-afa8-a3c9c051257a",
+        "id": "8771746556613836801",
+        "name": "entity_9efabf7f-63f2-43e2-afa8-a3c9c051257a",
+        "position": {
+          "x": 18.451211929321,
+          "y": -0.15892288088799,
+          "z": 21.582723617554
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_DropItem",
+        "config": "myplugin/057d4d1d-889a-4777-837d-f94a974babac",
+        "id": "8771750603709693953",
+        "position": {
+          "x": 25.218494415283,
+          "y": 0.048777163028717,
+          "z": 15.892963409424
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_DropItem",
+        "config": "myplugin/epee",
+        "id": "8771751013374427137",
+        "position": {
+          "x": 20.83978843689,
+          "y": 0.13445150852203,
+          "z": 14.361434936523
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_DropItem",
+        "config": "myplugin/ce6802e2-dfff-47b3-a5cd-b0479715f636",
+        "id": "8771786312720859137",
+        "position": {
+          "x": 16.322128295898,
+          "y": 0.098012864589691,
+          "z": 12.443106651306
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_DropItem",
+        "config": "myplugin/33f3159c-becb-45a8-8b7b-f7db3000af7d",
+        "id": "8772407761980538881",
+        "position": {
+          "x": 10.798727035522,
+          "y": 0.39786410331726,
+          "z": 16.077686309814
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_DropItem",
+        "config": "myplugin/951529d8-99cc-4dbe-9dc3-cbb0a4eef98f",
+        "id": "8772433274448134145",
+        "position": {
+          "x": 8.3201065063477,
+          "y": -0.00010031461715698,
+          "z": 20.533805847168
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_DropItem",
+        "config": "myplugin/b771344e-32e8-4488-a0f3-7d87111c3590",
+        "id": "8772446648384159745",
+        "position": {
+          "x": 9.4459352493286,
+          "y": 0.30909806489944,
+          "z": 28.422655105591
+        }
+      }
+    ],
+    "name": {
+      "value": "map_map001"
+    },
+    "touch_pos": {
+      "down": -10,
+      "up": 300
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "DataSet": [],
+      "setting.json": "941fa41d2ffdf3b94a604973901715aa"
+    },
+    "VERSION": "0.22"
+  }
+}

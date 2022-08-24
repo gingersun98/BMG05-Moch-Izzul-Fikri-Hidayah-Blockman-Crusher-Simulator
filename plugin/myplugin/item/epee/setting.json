@@ -1,0 +1,24 @@
+{
+  "canAbandon": false,
+  "candrop": true,
+  "canEquipPlural": true,
+  "canUse": false,
+  "dropSpeed": 0.2,
+  "handItemBoneName": "s_hand_r",
+  "icon": "@asset/Mesh/Blue Grimace Sword/g2030_weapon_7_2.tga",
+  "itemintroduction": "5cba3d8c-1190-4311-8810-9310398a8555",
+  "itemname": "item_epee",
+  "mesh": "asset/Mesh/Blue Grimace Sword/g2030_weapon_7_3.mesh",
+  "needSave": false,
+  "skill": [
+    "myplugin/Blasting_gas",
+    "myplugin/blow",
+    "myplugin/a3625fb5-9098-476b-9890-3827a2b44157"
+  ],
+  "stack_count_max": 1,
+  "syncGameData": {
+    "currentCapacity": true,
+    "extCapacity": true
+  },
+  "trap": false
+}

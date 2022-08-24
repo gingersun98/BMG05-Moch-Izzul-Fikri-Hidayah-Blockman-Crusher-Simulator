@@ -1,0 +1,59 @@
+{
+  "data": {
+    "boundingVolume": {
+      "radius": 5,
+      "type": "Sphere"
+    },
+    "hitBlockSound": {
+      "volume": {
+        "value": 0
+      }
+    },
+    "hitEntitySkill": "myplugin/hut",
+    "hitEntitySound": {
+      "volume": {
+        "value": 0
+      }
+    },
+    "lifeTime": {
+      "value": 40
+    },
+    "moveSpeed": 0.1,
+    "name": {
+      "value": "missile_earthquake"
+    },
+    "reboundBlockSound": {
+      "volume": {
+        "value": 0
+      }
+    },
+    "startEffect": {
+      "effect": {
+        "asset": "asset/warrior/g2021_dungeon_13_4_attack2.effect"
+      },
+      "pos": {
+        "y": 5
+      }
+    },
+    "startSound": {
+      "volume": {
+        "value": 0
+      }
+    },
+    "vanishSound": {
+      "volume": {
+        "value": 0
+      }
+    },
+    "vanishTime": {
+      "value": 20
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "b14f0a74180cf7ca57df13bea6c40f7e",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.22"
+  }
+}

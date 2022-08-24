@@ -1,0 +1,28 @@
+{
+  "data": {
+    "canAbandon": true,
+    "icon": {
+      "asset": "asset/resources/copper_coin.png"
+    },
+    "item": {
+      "base": {
+        "__OBJ_TYPE": "ItemInHand"
+      },
+      "type": "InHand"
+    },
+    "mesh": {
+      "asset": "asset/resources/g2030_build_jinbi.mesh"
+    },
+    "name": {
+      "value": "item_copper_coin"
+    },
+    "stack_count_max": 100
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "0d7f758e2dbe7915b67d43a9dfc1d65f",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.22"
+  }
+}

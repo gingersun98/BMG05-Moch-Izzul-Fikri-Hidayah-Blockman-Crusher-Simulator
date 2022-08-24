@@ -1,0 +1,32 @@
+{
+  "data": {
+    "candrop": true,
+    "icon": {
+      "asset": "asset/Mesh/Blue Grimace Sword/g2030_weapon_7_2.tga"
+    },
+    "item": {
+      "base": {
+        "__OBJ_TYPE": "ItemInHand",
+        "skill": [
+          "myplugin/Blasting_gas",
+          "myplugin/blow",
+          "myplugin/a3625fb5-9098-476b-9890-3827a2b44157"
+        ]
+      },
+      "type": "InHand"
+    },
+    "mesh": {
+      "asset": "asset/Mesh/Blue Grimace Sword/g2030_weapon_7_3.mesh"
+    },
+    "name": {
+      "value": "item_epee"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "dd662ccc55ddb9b38ff61d71b5283351",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.22"
+  }
+}

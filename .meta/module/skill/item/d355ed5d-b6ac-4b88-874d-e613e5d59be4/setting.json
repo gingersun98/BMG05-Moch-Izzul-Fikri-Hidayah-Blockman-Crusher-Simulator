@@ -1,0 +1,49 @@
+{
+  "data": {
+    "castAction": "comboAttack3",
+    "castEffect": {
+      "effect": {
+        "asset": "asset/effect/Red Spinning Light Wave Effect/gfxy207_rotating light strip_red_3d.effect"
+      }
+    },
+    "consumeVp": 5,
+    "frontSight": "myplugin/frontsight1",
+    "name": {
+      "value": "d78670dd-5533-476f-bce7-f323d51cc3aa"
+    },
+    "skill": {
+      "base": {
+        "__OBJ_TYPE": "Skill_Missile",
+        "missile": [
+          {
+            "bodyPitchOffset": -90,
+            "missileCfg": "myplugin/4eabb864-9613-445b-813f-bb075cbfe19b",
+            "startPos": {
+              "y": 0
+            }
+          }
+        ],
+        "target": {
+          "type": "Self"
+        }
+      },
+      "type": "Missile"
+    },
+    "skillReleaseWay": {
+      "icon": {
+        "asset": "asset/Texture/Skill/common/icon_近战攻击_act.png"
+      },
+      "iconPos": {
+        "area_number": 9
+      },
+      "isClickIcon": true
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "b5aad2f852deff0ee5f3000240063d64",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.22"
+  }
+}

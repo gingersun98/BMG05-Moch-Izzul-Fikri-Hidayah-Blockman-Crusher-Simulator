@@ -1,0 +1,464 @@
+{
+  "data": {
+    "md5": "408035b351d7ffc9a7d718b96d3a9319",
+    "path": "asset/seleceHeroWnd.layout",
+    "root": {
+      "anchor": {
+        "HorizontalAlignment": "Centre",
+        "VerticalAlignment": "Centre"
+      },
+      "children": [
+        {
+          "__OBJ_TYPE": "StaticImage",
+          "Alpha": 0.41,
+          "anchor": {
+            "HorizontalAlignment": "Centre",
+            "VerticalAlignment": "Centre"
+          },
+          "id": {
+            "value": "c7de631c-b857-48c9-8fcc-1a8ce498af17"
+          },
+          "name": "bg",
+          "size": {
+            "UDim_X": {
+              "Offect": 0.0,
+              "Scale": 1
+            },
+            "UDim_Y": {
+              "Offect": 0.0,
+              "Scale": 1
+            }
+          }
+        },
+        {
+          "__OBJ_TYPE": "StaticImage",
+          "anchor": {
+            "HorizontalAlignment": "Centre",
+            "VerticalAlignment": "Centre"
+          },
+          "children": [
+            {
+              "__OBJ_TYPE": "StaticText",
+              "Font_size": 20,
+              "HorzFormatting": "CentreAligned",
+              "id": {
+                "value": "a1f79692-b498-4b57-8c20-b3811339b50f"
+              },
+              "name": "introduceText",
+              "pos": {
+                "UDim_X": {
+                  "Scale": 0.1
+                },
+                "UDim_Y": {
+                  "Scale": 0.08
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0.0,
+                  "Scale": 0.5
+                },
+                "UDim_Y": {
+                  "Offect": 0.0,
+                  "Scale": 0.1
+                }
+              },
+              "TextBoldWeight": "1",
+              "TextColours": {
+                "b": 222,
+                "g": 209,
+                "r": 16
+              },
+              "VertFormatting": "CentreAligned"
+            },
+            {
+              "__OBJ_TYPE": "RadioButton",
+              "Font_size": 18,
+              "HorzLabelFormatting": "CentreAligned",
+              "id": {
+                "value": "3fefd937-da46-4a3c-9deb-f89bb4ee039a"
+              },
+              "ImageXSizeImcress": "1",
+              "name": "master",
+              "NormalTextColour": {
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "pos": {
+                "UDim_X": {
+                  "Scale": 0.18
+                },
+                "UDim_Y": {
+                  "Scale": 0.425
+                }
+              },
+              "selectableImage": {
+                "asset": "asset/Texture/ui/btn_Select.png"
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0.0,
+                  "Scale": 0.18
+                },
+                "UDim_Y": {
+                  "Offect": 0.0,
+                  "Scale": 0.12
+                }
+              },
+              "Text": "05d6aec2-8419-494f-ae06-9d2638687122&backslashn",
+              "TextBoldWeight": "1",
+              "TextXPos": "0",
+              "unselectableImage": {
+                "asset": "asset/Texture/ui/btn_nor.png"
+              }
+            },
+            {
+              "__OBJ_TYPE": "RadioButton",
+              "Font_size": 18,
+              "HorzLabelFormatting": "CentreAligned",
+              "id": {
+                "value": "ef37ff09-2538-4ceb-ac65-cf21273ca016"
+              },
+              "ImageXSizeImcress": "1",
+              "name": "warrior",
+              "NormalTextColour": {
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "pos": {
+                "UDim_X": {
+                  "Scale": 0.13
+                },
+                "UDim_Y": {
+                  "Scale": 0.25
+                }
+              },
+              "selectableImage": {
+                "asset": "asset/Texture/ui/btn_Select.png"
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0.0,
+                  "Scale": 0.18
+                },
+                "UDim_Y": {
+                  "Offect": 0.0,
+                  "Scale": 0.12
+                }
+              },
+              "TextBoldWeight": "1",
+              "TextXPos": "0",
+              "unselectableImage": {
+                "asset": "asset/Texture/ui/btn_nor.png"
+              }
+            },
+            {
+              "__OBJ_TYPE": "RadioButton",
+              "Font_size": 18,
+              "HorzLabelFormatting": "CentreAligned",
+              "id": {
+                "value": "e6a0ed69-fce0-40cc-9e94-728d59532a3e"
+              },
+              "ImageXSizeImcress": "1",
+              "name": "warlock",
+              "NormalTextColour": {
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "pos": {
+                "UDim_X": {
+                  "Scale": 0.13
+                },
+                "UDim_Y": {
+                  "Scale": 0.6
+                }
+              },
+              "selectableImage": {
+                "asset": "asset/Texture/ui/btn_Select.png"
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0.0,
+                  "Scale": 0.18
+                },
+                "UDim_Y": {
+                  "Offect": 0.0,
+                  "Scale": 0.12
+                }
+              },
+              "Text": "战士",
+              "TextBoldWeight": "1",
+              "TextXPos": "0",
+              "unselectableImage": {
+                "asset": "asset/Texture/ui/btn_nor.png"
+              }
+            },
+            {
+              "__OBJ_TYPE": "StaticImage",
+              "anchor": {
+                "HorizontalAlignment": "Right",
+                "VerticalAlignment": "Centre"
+              },
+              "children": [
+                {
+                  "__OBJ_TYPE": "StaticImage",
+                  "anchor": {
+                    "HorizontalAlignment": "Right",
+                    "VerticalAlignment": "Bottom"
+                  },
+                  "id": {
+                    "value": "737038f6-7346-45f5-8e1e-35d9ae1dbb4b"
+                  },
+                  "Image": {
+                    "asset": "asset/Texture/ui/img_展示台.png"
+                  },
+                  "pos": {
+                    "UDim_Y": {
+                      "Scale": -0.02
+                    }
+                  },
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 0.0,
+                      "Scale": 1
+                    },
+                    "UDim_Y": {
+                      "Offect": 0.0,
+                      "Scale": 0.2
+                    }
+                  }
+                },
+                {
+                  "__OBJ_TYPE": "ActorWindow",
+                  "ActorName": {
+                    "asset": "asset/Actor/charactor/charactor_boy/character_boy.actor"
+                  },
+                  "anchor": {
+                    "HorizontalAlignment": "Centre",
+                    "VerticalAlignment": "Centre"
+                  },
+                  "id": {
+                    "value": "6968ded0-8717-4328-b522-74aebfacef19"
+                  },
+                  "name": "actorWindow",
+                  "pos": {
+                    "UDim_Y": {
+                      "Scale": -0.23
+                    }
+                  },
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 0.0,
+                      "Scale": 1.6
+                    },
+                    "UDim_Y": {
+                      "Offect": 0.0,
+                      "Scale": 1.2
+                    }
+                  }
+                }
+              ],
+              "id": {
+                "value": "6321a1d1-af4f-4309-9081-1e9160081e58"
+              },
+              "Image": {
+                "asset": "",
+                "selector": ""
+              },
+              "name": "heroBg",
+              "pos": {
+                "UDim_X": {
+                  "Scale": -0.2
+                },
+                "UDim_Y": {
+                  "Scale": -0.08
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0.0,
+                  "Scale": 0.25
+                },
+                "UDim_Y": {
+                  "Offect": 0.0,
+                  "Scale": 0.6
+                }
+              }
+            },
+            {
+              "__OBJ_TYPE": "Button",
+              "anchor": {
+                "HorizontalAlignment": "Right",
+                "VerticalAlignment": "Bottom"
+              },
+              "children": [
+                {
+                  "__OBJ_TYPE": "StaticText",
+                  "anchor": {
+                    "HorizontalAlignment": "Centre",
+                    "VerticalAlignment": "Centre"
+                  },
+                  "AutoTextScale": true,
+                  "Font_size": 20,
+                  "HorzFormatting": "CentreAligned",
+                  "id": {
+                    "value": "6a386f84-a7e2-4b72-9bcd-e0e2f9bed51e"
+                  },
+                  "pos": {
+                    "UDim_X": {
+                      "Scale": -0.03
+                    },
+                    "UDim_Y": {
+                      "Scale": -0.08
+                    }
+                  },
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 0.0,
+                      "Scale": 0.7
+                    },
+                    "UDim_Y": {
+                      "Offect": 0.0,
+                      "Scale": 0.8
+                    }
+                  },
+                  "TextBoldWeight": "1",
+                  "TextColours": {
+                    "b": 255,
+                    "g": 255,
+                    "r": 255
+                  },
+                  "VertFormatting": "CentreAligned",
+                  "WindowTouchThroughMode": "MousePassThroughOpen"
+                },
+                {
+                  "__OBJ_TYPE": "StaticImage",
+                  "anchor": {
+                    "HorizontalAlignment": "Right",
+                    "VerticalAlignment": "Centre"
+                  },
+                  "id": {
+                    "value": "d3a373c6-97bc-43b3-a892-4e593f7a2a37"
+                  },
+                  "Image": {
+                    "asset": "asset/Texture/ui/icon_go.png"
+                  },
+                  "pos": {
+                    "UDim_X": {
+                      "Scale": -0.06
+                    },
+                    "UDim_Y": {
+                      "Scale": -0.08
+                    }
+                  },
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 0.0,
+                      "Scale": 0.15
+                    },
+                    "UDim_Y": {
+                      "Offect": 0.0,
+                      "Scale": 0.6
+                    }
+                  },
+                  "WindowTouchThroughMode": "MousePassThroughOpen"
+                }
+              ],
+              "HoverImage": {
+                "asset": "asset/Texture/ui/icon_bule_nor（三宫格左右20px固定）.png"
+              },
+              "HoverStretch": {
+                "bottom_left": 17,
+                "bottom_right": 27,
+                "top_left": 17,
+                "top_right": 15
+              },
+              "id": {
+                "value": "9037393b-1269-4eb2-ad87-1fea509fb15f"
+              },
+              "name": "determind",
+              "NormalImage": {
+                "asset": "asset/Texture/ui/icon_bule_nor（三宫格左右20px固定）.png"
+              },
+              "NormalStretch": {
+                "bottom_left": 17,
+                "bottom_right": 27,
+                "top_left": 17,
+                "top_right": 15
+              },
+              "pos": {
+                "UDim_X": {
+                  "Scale": -0.05
+                },
+                "UDim_Y": {
+                  "Scale": -0.06
+                }
+              },
+              "PushedImage": {
+                "asset": "asset/Texture/ui/icon_blue_act.png"
+              },
+              "PushedStretch": {
+                "bottom_left": 17,
+                "bottom_right": 27,
+                "top_left": 17,
+                "top_right": 15
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0.0,
+                  "Scale": 0.3
+                },
+                "UDim_Y": {
+                  "Offect": 0.0,
+                  "Scale": 0.13
+                }
+              },
+              "Text": ""
+            }
+          ],
+          "id": {
+            "value": "5256d12b-3ac4-44db-9f79-c13d36db4947"
+          },
+          "Image": {
+            "asset": "asset/Texture/ui/bg_selectHero.png"
+          },
+          "name": "planeBg",
+          "size": {
+            "UDim_X": {
+              "Offect": 0.0,
+              "Scale": 0.8
+            },
+            "UDim_Y": {
+              "Offect": 0.0,
+              "Scale": 0.8
+            }
+          }
+        }
+      ],
+      "id": {
+        "value": "d291ec57-a35f-4dcc-bdd7-d066f68630cf"
+      },
+      "size": {
+        "UDim_X": {
+          "Offect": 0,
+          "Scale": 1
+        },
+        "UDim_Y": {
+          "Offect": 0,
+          "Scale": 1
+        }
+      },
+      "WindowTouchThroughMode": "MousePassThroughOpen"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "layout": "408035b351d7ffc9a7d718b96d3a9319",
+      "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
+    },
+    "VERSION": "0.22"
+  }
+}

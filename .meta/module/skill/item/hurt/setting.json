@@ -1,0 +1,23 @@
+{
+  "data": {
+    "castAction": "hurt",
+    "castSound": {
+      "volume": {
+        "value": 0
+      }
+    },
+    "name": {
+      "value": "skill_hurt"
+    },
+    "skill": {
+      "type": "Base"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "5953a3a5191848330d24ac2ca9690c1f",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.22"
+  }
+}

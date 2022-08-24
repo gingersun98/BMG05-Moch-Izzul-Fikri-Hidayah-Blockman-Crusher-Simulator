@@ -1,0 +1,84 @@
+{
+  "data": {
+    "bagCap": 10,
+    "canJoinMidway": false,
+    "fixed_viewPos": {
+      "pos": {
+        "__OBJ_TYPE": "Vector3i"
+      }
+    },
+    "initPos": {
+      "map": "map001",
+      "pos": {
+        "x": 18.249935150146,
+        "y": 0.039902725219727,
+        "z": 0.22684097290039
+      }
+    },
+    "nowTime": {
+      "h": 0,
+      "m": 39,
+      "s": 59
+    },
+    "player_range": {
+      "max": 6,
+      "min": 1
+    },
+    "shops": [
+      {
+        "items": [
+          {
+            "coinId": "copper_coin",
+            "detail": {
+              "value": "8d3c0f9e-a798-4cba-9900-61ea4decb170"
+            },
+            "item": {
+              "item": "pizza"
+            },
+            "name": {
+              "value": "67995633-eda3-4e8a-8313-3b2b85e20b32"
+            },
+            "price": 3
+          },
+          {
+            "coinId": "copper_coin",
+            "detail": {
+              "value": "9e739b57-572c-4e87-a23c-c04cb1ca2ee5"
+            },
+            "item": {
+              "item": "apple"
+            },
+            "name": {
+              "value": "433011d9-542b-4ee9-b6b4-fa35d8b13658"
+            },
+            "price": 1
+          }
+        ],
+        "name": {
+          "value": "188f3599-3abf-4c5d-8c78-e91a166abfd1"
+        }
+      }
+    ],
+    "startPos": {
+      "map": "map001",
+      "pos": {
+        "x": 16.962162017822,
+        "y": 0.039900817871094,
+        "z": 1.7434139251709
+      }
+    },
+    "team": {
+      "showTeamStatusBar": false
+    },
+    "unlimitedPlayTime": true
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "a26ba54c3f4b51a388fab0da364ff735",
+      "shop.csv": "6ee184fee86eac10b725400fd987af25",
+      "triggers.bts": "",
+      "triggers_client.bts": ""
+    },
+    "VERSION": "0.22"
+  }
+}

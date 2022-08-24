@@ -1,0 +1,40 @@
+{
+  "data": {
+    "consumeVp": 25,
+    "frontSight": "myplugin/frontsight1",
+    "name": {
+      "value": "0dbe541f-404c-43ac-8843-bc013b51d8d5"
+    },
+    "skill": {
+      "base": {
+        "__OBJ_TYPE": "Skill_Missile",
+        "missile": [
+          {
+            "bodyPitchOffset": -90,
+            "missileCfg": "myplugin/4e464607-98b6-48ca-8a70-b886d81c2bdc"
+          }
+        ],
+        "target": {
+          "type": "Camera"
+        }
+      },
+      "type": "Missile"
+    },
+    "skillReleaseWay": {
+      "icon": {
+        "asset": "asset/Texture/Skill/common/icon_开枪_act.png"
+      },
+      "iconPos": {
+        "area_number": 8
+      },
+      "isClickIcon": true
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "866148ed6540ec78fe30f73f0840146c",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.22"
+  }
+}

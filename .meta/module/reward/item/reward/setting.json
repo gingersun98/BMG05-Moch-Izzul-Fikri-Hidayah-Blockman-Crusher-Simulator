@@ -1,0 +1,51 @@
+{
+  "data": {
+    "name": {
+      "value": "reward_reward"
+    },
+    "rewardArray": [
+      {
+        "base": {
+          "__OBJ_TYPE": "RewardList",
+          "array": [
+            {
+              "reward": {
+                "base": {
+                  "__OBJ_TYPE": "RewardItem",
+                  "countRange": {
+                    "max": 3,
+                    "min": 1
+                  },
+                  "name": "myplugin/pizza"
+                }
+              }
+            },
+            {
+              "reward": {
+                "base": {
+                  "__OBJ_TYPE": "RewardItem",
+                  "countRange": {
+                    "max": 3,
+                    "min": 1
+                  },
+                  "name": "myplugin/apple"
+                }
+              }
+            }
+          ],
+          "countRange": {
+            "max": 3,
+            "min": 1
+          }
+        },
+        "type": "List"
+      }
+    ]
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "6f9033c40035f25b6fd31ae6019d23ca"
+    },
+    "VERSION": "0.22"
+  }
+}

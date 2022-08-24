@@ -1,0 +1,32 @@
+{
+  "data": {
+    "castAction": "attack",
+    "castSound": {
+      "volume": {
+        "value": 0
+      }
+    },
+    "cdTime": {
+      "value": 20
+    },
+    "name": {
+      "value": "skill_damage"
+    },
+    "skill": {
+      "base": {
+        "__OBJ_TYPE": "Skill_MeleeAttack",
+        "damage": 5
+      }
+    },
+    "skillReleaseWay": {
+      "isClick": true
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "6833396402a85fa191724adcf9ae2db7",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.22"
+  }
+}

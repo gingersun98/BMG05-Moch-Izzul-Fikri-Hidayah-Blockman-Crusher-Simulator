@@ -1,0 +1,201 @@
+{
+  "data": {
+    "_serverScript": [
+      {
+        "path": "server/server_script"
+      }
+    ],
+    "actorModel": {
+      "actorName": {
+        "asset": "asset/Actor/fire_devil/g2043_pet_10301.actor",
+        "selector": "editor/hunter/asset/Actor/fire_devil/g2043_pet_10301.actor"
+      },
+      "girlactor": {
+        "asset": "asset/Actor/fire_devil/g2043_pet_10301.actor",
+        "selector": "editor/hunter/asset/Actor/fire_devil/g2043_pet_10301.actor"
+      },
+      "modelType": "Customize"
+    },
+    "actorName": {
+      "asset": "asset/Mesh/Snow Covered Pine Tree/g2038_tree_14.actor"
+    },
+    "AI_attack": {
+      "attackMode": "autoAttack",
+      "enable": true,
+      "skillList": [
+        {
+          "fullName": "myplugin/attack",
+          "priority": 1
+        }
+      ]
+    },
+    "AI_home": {
+      "homeSize": 20
+    },
+    "AI_patrol": {
+      "patrolDistance": 10,
+      "patrolMode": "randomPath"
+    },
+    "canMove": false,
+    "collision": true,
+    "deadSound": {
+      "volume": {
+        "value": 0
+      }
+    },
+    "girlactor": {
+      "asset": "asset/Mesh/Snow Covered Pine Tree/g2038_tree_14.actor"
+    },
+    "hideName": true,
+    "maxHp": 100,
+    "moveSpeed": 0,
+    "name": {
+      "value": "1f0d1509-7aed-409f-8e32-8fe7cb830dd5"
+    },
+    "stepHeight": 0,
+    "textHeight": 2.5,
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_SpawnItemToWorld",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_ItemEntry",
+                        "rawval": "myplugin/33f3159c-becb-45a8-8b7b-f7db3000af7d"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int",
+                        "rawval": 1
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_ScenePos"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_MapObj"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Time",
+                        "rawval": {
+                          "value": 600
+                        }
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Bool",
+                        "rawval": true
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "dd8b4307-99d9-4c20-bd74-1975c6354c00"
+              },
+              "pos": {
+                "x": 1196,
+                "y": 219
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_ExecScript",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Script",
+                  "children": [
+                    {
+                      "action": "d2398b7a-fa28-4185-8358-23742abf9815",
+                      "param_name": "Killer"
+                    }
+                  ],
+                  "script_name": "ScriptableNode_2"
+                }
+              ],
+              "id": {
+                "value": "166f3e81-1f80-45ce-ac7b-c769a1cb2586"
+              },
+              "pos": {
+                "x": 557,
+                "y": 317
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj2"
+                }
+              ],
+              "id": {
+                "value": "d2398b7a-fa28-4185-8358-23742abf9815"
+              },
+              "pos": {
+                "x": 908,
+                "y": 363
+              },
+              "type": "T_Entity"
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "0b62b249-e96a-4682-a93a-afc85ff14d47"
+            },
+            "type": "Trigger_EntityDie"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "166f3e81-1f80-45ce-ac7b-c769a1cb2586"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "c5175ce9-969a-4d5d-a43b-9105ccfbc5f0"
+            },
+            "pos": {
+              "x": 301,
+              "y": 288
+            }
+          },
+          "type": "Trigger_EntityDie"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "4e1ee195d7860743ffbebfbab5544811",
+      "triggers.bts": "b18f40209148543cf0bc37560699d97b"
+    },
+    "VERSION": "0.22"
+  }
+}

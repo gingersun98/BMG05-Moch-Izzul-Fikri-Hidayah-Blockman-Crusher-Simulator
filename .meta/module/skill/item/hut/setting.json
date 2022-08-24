@@ -1,0 +1,29 @@
+{
+  "data": {
+    "castSound": {
+      "volume": {
+        "value": 0
+      }
+    },
+    "name": {
+      "value": "skill_hut"
+    },
+    "skill": {
+      "base": {
+        "__OBJ_TYPE": "Skill_MeleeAttack",
+        "damage": 10,
+        "hurtDistance": 1
+      }
+    },
+    "skillReleaseWay": {
+      "isClick": true
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "fce4af220ad4e8fe5a46e54d91783bd7",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.22"
+  }
+}
